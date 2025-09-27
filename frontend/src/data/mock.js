@@ -11,10 +11,10 @@ export const portfolioData = {
   },
   
   about: {
-    summary: "I am a Frontend Engineering Leader with over 10+ years of experience specializing in building scalable, resilient, and innovative web applications. With a strong educational background from Indian Institute of Technology, Patna, I have led cross-functional teams and mentored developers while delivering high-performance solutions using modern JavaScript frameworks.",
+    summary: "I am a Frontend Engineering Leader with over 10+ years of experience specializing in building scalable, resilient, and innovative web applications. With advanced certifications including Professional Certificate in Gen AI from IIIT Patna, I have led cross-functional teams and mentored developers while delivering high-performance solutions using modern JavaScript frameworks.",
     highlights: [
       "Frontend Engineering Leadership with 10+ years experience",
-      "IIT Patna graduate with strong technical foundation",
+      "Professional Certificate in Gen AI from IIIT Patna",
       "Expert in React, Node.js, and JavaScript ecosystem",
       "Experience leading cross-functional teams",
       "Proven track record in scalable application development"
