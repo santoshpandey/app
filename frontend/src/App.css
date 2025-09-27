@@ -1,3 +1,127 @@
+/* Portfolio Custom Styles */
+
+/* Navy color variables for consistent theming */
+:root {
+  --navy-50: #f8fafc;
+  --navy-100: #e2e8f0;
+  --navy-200: #cbd5e1;
+  --navy-300: #94a3b8;
+  --navy-400: #64748b;
+  --navy-500: #475569;
+  --navy-600: #334155;
+  --navy-700: #1e293b;
+  --navy-800: #1e3a8a;
+  --navy-900: #0f172a;
+}
+
+/* Smooth scrolling for entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default app centering for natural reading flow */
+.App {
+  text-align: left;
+}
+
+/* Navy color utility classes */
+.text-navy-50 { color: var(--navy-50); }
+.text-navy-100 { color: var(--navy-100); }
+.text-navy-200 { color: var(--navy-200); }
+.text-navy-300 { color: var(--navy-300); }
+.text-navy-400 { color: var(--navy-400); }
+.text-navy-500 { color: var(--navy-500); }
+.text-navy-600 { color: var(--navy-600); }
+.text-navy-700 { color: var(--navy-700); }
+.text-navy-800 { color: var(--navy-800); }
+.text-navy-900 { color: var(--navy-900); }
+
+.bg-navy-50 { background-color: var(--navy-50); }
+.bg-navy-100 { background-color: var(--navy-100); }
+.bg-navy-200 { background-color: var(--navy-200); }
+.bg-navy-300 { background-color: var(--navy-300); }
+.bg-navy-400 { background-color: var(--navy-400); }
+.bg-navy-500 { background-color: var(--navy-500); }
+.bg-navy-600 { background-color: var(--navy-600); }
+.bg-navy-700 { background-color: var(--navy-700); }
+.bg-navy-800 { background-color: var(--navy-800); }
+.bg-navy-900 { background-color: var(--navy-900); }
+
+.border-navy-800 { border-color: var(--navy-800); }
+.border-navy-600 { border-color: var(--navy-600); }
+
+.hover\:bg-navy-50:hover { background-color: var(--navy-50); }
+.hover\:bg-navy-700:hover { background-color: var(--navy-700); }
+.hover\:bg-navy-800:hover { background-color: var(--navy-800); }
+.hover\:bg-navy-900:hover { background-color: var(--navy-900); }
+
+.hover\:text-navy-600:hover { color: var(--navy-600); }
+.hover\:text-navy-800:hover { color: var(--navy-800); }
+
+.focus\:ring-navy-500:focus { 
+  --tw-ring-color: var(--navy-500);
+  --tw-ring-opacity: 0.5;
+}
+
+.focus\:border-navy-500:focus { 
+  border-color: var(--navy-500);
+}
+
+/* Custom animations */
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Custom focus styles for accessibility */
+.focus\:ring-navy-500:focus {
+  outline: none;
+  ring: 2px solid rgba(59, 130, 246, 0.5);
+  border-color: var(--navy-500);
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, .card, .hover-effect {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ensure proper contrast for accessibility */
+.text-gray-900 {
+  color: #111827;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+/* Remove any transform animations that might interfere with screen readers */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
