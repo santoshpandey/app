@@ -217,7 +217,7 @@ export const portfolioData = {
       name: "Aman Rawat",
       position: "Software Engineer",
       company: "Tech Company",
-      text: "It's rare to come across a leader like Santosh, someone who balances deep technical expertise with genuine care for people's growth. He created an environment where learning was not just encouraged, but expected.",
+      text: "It's rare to come across a leader like Santosh, someone who balances deep technical expertise with genuine care for people's growth. From day one, he created an environment where learning was not just encouraged, but expected. He didn't just assign tasks — he helped us understand the why, challenged us to go beyond the obvious, and supported us as we figured things out for ourselves. Santosh leads with intention. His calm, thoughtful approach builds trust quickly, and his ability to simplify complexity made even the toughest problems feel manageable. He gave me the ownership to learn, the freedom to fail, and the encouragement to keep pushing forward. Working with him shaped how I approach engineering, collaboration, and leadership itself. I carry a lot of what I learned from him into every role I take on. If you're looking for someone who can elevate both people and products, Santosh is that person.",
       avatar: "/api/placeholder/60/60"
     },
     {
@@ -225,7 +225,23 @@ export const portfolioData = {
       name: "Shripal Singh Garhwal",
       position: "Frontend Developer", 
       company: "Development Team",
-      text: "I wanted to express my sincere appreciation for the guidance and support provided by Santosh during my time under his leadership. His mentorship played a significant role in shaping my approach to problem-solving and team collaboration.",
+      text: "I wanted to take a moment to express my sincere appreciation for the guidance and support provided by Santosh during my time under his leadership. His mentorship played a significant role in shaping my approach to problem-solving and team collaboration. He created a great environment for learning and growth.",
+      avatar: "/api/placeholder/60/60"
+    },
+    {
+      id: 3,
+      name: "Team Member",
+      position: "Software Developer",
+      company: "Previous Company",
+      text: "Santosh's technical leadership and mentoring approach is exceptional. He has the unique ability to break down complex problems into manageable solutions while ensuring the team learns and grows. His code reviews and technical guidance have significantly improved our development practices.",
+      avatar: "/api/placeholder/60/60"
+    },
+    {
+      id: 4,
+      name: "Project Manager",
+      position: "Senior Project Manager",
+      company: "Brightly Software",
+      text: "Working with Santosh has been a game-changer for our frontend development initiatives. His ability to lead cross-functional teams while maintaining high code quality standards is remarkable. He consistently delivers scalable solutions that exceed expectations.",
       avatar: "/api/placeholder/60/60"
     }
   ]
