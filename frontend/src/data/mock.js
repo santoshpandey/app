@@ -5,15 +5,15 @@ export const portfolioData = {
     title: "Frontend Engineering Leader",
     subtitle: "Specializing in building scalable, resilient, and innovative web applications",
     location: "Noida, Uttar Pradesh, India",
-    email: "santosh.pandey@example.com",
+    email: "santosh.nainital@gmail.com",
     linkedin: "https://www.linkedin.com/in/santosh-pandey-18349016/",
-    phone: "+91 XXXXX XXXXX"
+    phone: "+91 99999 08313"
   },
   
   about: {
-    summary: "I am a Frontend Engineering Leader with over 10+ years of experience specializing in building scalable, resilient, and innovative web applications. With advanced certifications including Professional Certificate in Gen AI from IIIT Patna, I have led cross-functional teams and mentored developers while delivering high-performance solutions using modern JavaScript frameworks.",
+    summary: "I am a Frontend Engineering Leader with over 15+ years of experience specializing in building scalable, resilient, and innovative web applications. With advanced certifications including Professional Certificate in Gen AI from IIIT Patna, I have led cross-functional teams and mentored developers while delivering high-performance solutions using modern JavaScript frameworks.",
     highlights: [
-      "Frontend Engineering Leadership with 10+ years experience",
+      "Frontend Engineering Leadership with 15+ years experience",
       "Professional Certificate in Gen AI from IIIT Patna",
       "Expert in React, Node.js, and JavaScript ecosystem",
       "Experience leading cross-functional teams",
@@ -30,7 +30,9 @@ export const portfolioData = {
       { name: "Python", level: 80 },
       { name: "TypeScript", level: 85 },
       { name: "Redux", level: 88 },
-      { name: "Express.js", level: 82 }
+      { name: "Express.js", level: 82 },
+      { name: "HTML5 & CSS3", level: 90 },
+      { name: "Python", level: 60 }
     ],
     leadership: [
       "Team Leadership & Mentoring",
@@ -46,6 +48,7 @@ export const portfolioData = {
       "AWS",
       "Sumo Logic",
       "MongoDB Atlas",
+      "SQLite",
       "VS Code",
       "Webpack",
       "Jest & Testing Libraries"
@@ -56,24 +59,25 @@ export const portfolioData = {
     {
       id: 1,
       company: "Brightly Software",
-      position: "Frontend Engineering Leader",
-      duration: "2023 - Present",
+      position: "Frontend Engineering Manager",
+      duration: "August 2022 - July 2025",
       location: "Noida, India",
       description: "Leading frontend development initiatives and mentoring engineering teams to build scalable, resilient web applications.",
       achievements: [
-        "Led a team of 8+ frontend developers across multiple projects",
-        "Implemented modern React architecture improving performance by 40%",
+        "Led a team of 15+ cross functional developers across multiple projects",
+        "Introduced MFE in monolith legacy app to improve performance by 40%",
         "Established coding standards and best practices",
-        "Mentored junior developers and improved team productivity"
+        "Mentored junior developers and improved team productivity",
+        "Instrumental in retaining a high-value government client contributing hundreds of millions in ARR by proactively addressing ADA compliance issues and mitigating the risk of legal penalties."
       ]
     },
     {
       id: 2,
-      company: "Previous Company",
-      position: "Senior Frontend Developer",
-      duration: "2020 - 2023",
+      company: "Bedbath & Beyond",
+      position: "Technical Architect",
+      duration: "May-2019 - July-2022",
       location: "India",
-      description: "Developed and maintained complex web applications using React and Node.js ecosystem.",
+      description: "Designed and built scalable front-end systems. Championed performance optimization using Webpack tools and performance API Grahpna. Led UI component library initiative. Developed comprehensive test coverage with Jest and Cypress. Introduced micro front end and new tech stack for static content pages next JS. Responsible for delivering end to end solution for SHOP Workstream from India. Actively Involvement in architecture of the new features, components, and performance. Leading the team of 10 people at offshore and responsible for solving their day-to-day queries. Responsible for closing open requirements/questions with BA's or Onshore Stakeholders on a day-to-day basis. Developed and maintained complex web applications using React and Node.js ecosystem.",
       achievements: [
         "Built responsive web applications serving 100K+ users",
         "Optimized application performance and reduced load times by 50%",
@@ -83,16 +87,31 @@ export const portfolioData = {
     },
     {
       id: 3,
-      company: "Tech Company",
-      position: "Frontend Developer",
-      duration: "2018 - 2020",
+      company: "Iris Software",
+      position: "Solutions Consultant",
+      duration: "Jan 2019 - May-2019",
       location: "India",
-      description: "Focused on building user-centric web applications and improving user experience.",
+      description: "Helped clients design and implement web solutions using modern JavaScript frameworks. Provided technical consulting and support for frontend development projects.",
       achievements: [
-        "Developed interactive dashboards and data visualization components",
-        "Worked on migration from legacy systems to modern React applications",
-        "Implemented responsive designs for mobile and desktop platforms",
-        "Contributed to open-source projects and internal tool development"
+        "Developed pilote application to generate PDF reports and summarizers using Angular and Python",
+        "Helped with Multiple RFP's and Proposals",
+      ]
+    },
+    {
+      id: 4,
+      company: "Publicis Sapient",
+      position: "UI Lead (SAL2)",
+      duration: "April 2010 - Dec-2018",
+      location: "India",
+      description: "Responsible for delivering end to end frontend solution for different Projects during whole tenure. Actively Involvement in architecture of website, UI components, leaded the team of 12 people at offshore and responsible for solving their day-to-day queries. Responsible for closing open requirements/questions with BA's or clients on a day-to-day basis. ",
+      achievements: [
+        "Successfully delivered 10+ large scale web applications using React and Angular",
+        "Led a team of 12 developers and improved team efficiency by 30%",
+        "Conducted code reviews and ensured adherence to best practices",
+        "Collaborated with backend teams to integrate RESTful APIs",
+        "Received 'Employee of the Year' award in 2016 for outstanding performance",
+        "Mentored 5 junior developers who were promoted to mid-level positions",
+        "Spearheaded the migration of legacy applications to modern JavaScript frameworks, resulting in a 25% increase in performance and maintainability"
       ]
     }
   ],

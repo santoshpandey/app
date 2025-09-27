@@ -57,7 +57,7 @@ const Hero = () => {
           {/* Stats Cards */}
           <div className="flex flex-wrap justify-center gap-4 py-8">
             <div className="bg-white/80 backdrop-blur-sm rounded-lg p-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              <div className="text-2xl font-bold text-navy-800">10+</div>
+              <div className="text-2xl font-bold text-navy-800">15+</div>
               <div className="text-sm text-gray-600">Years Experience</div>
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-lg p-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
