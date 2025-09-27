@@ -77,29 +77,28 @@ const Experience = () => {
 
         {/* Education Section */}
         <div className="mt-20">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Education</h3>
-          <div className="bg-gradient-to-br from-navy-50 to-gray-50 rounded-xl p-8 shadow-lg">
-            <div className="text-center">
-              <h4 className="text-2xl font-semibold text-navy-800 mb-2">
-                Indian Institute of Technology, Patna
-              </h4>
-              <p className="text-lg text-gray-600 mb-4">Bachelor's Degree in Engineering</p>
-              <p className="text-gray-500 mb-6">2015 - 2019</p>
-              <div className="grid md:grid-cols-3 gap-4 text-sm">
-                <div className="flex items-center justify-center space-x-2">
-                  <CheckCircle className="text-navy-600" size={16} />
-                  <span>Strong CS foundation</span>
-                </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <CheckCircle className="text-navy-600" size={16} />
-                  <span>Coding competitions</span>
-                </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <CheckCircle className="text-navy-600" size={16} />
-                  <span>Academic excellence</span>
+          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Education & Certifications</h3>
+          <div className="space-y-6">
+            {portfolioData.education.map((edu, index) => (
+              <div key={index} className="bg-gradient-to-br from-navy-50 to-gray-50 rounded-xl p-8 shadow-lg">
+                <div className="text-center mb-4">
+                  <h4 className="text-2xl font-semibold text-navy-800 mb-2">
+                    {edu.institution}
+                  </h4>
+                  <p className="text-lg text-gray-600 mb-2">{edu.degree}</p>
+                  <p className="text-md text-gray-600 mb-2">{edu.field}</p>
+                  <p className="text-gray-500 mb-6">{edu.duration}</p>
+                  <div className="grid md:grid-cols-3 gap-4 text-sm">
+                    {edu.achievements.map((achievement, idx) => (
+                      <div key={idx} className="flex items-center justify-center space-x-2">
+                        <CheckCircle className="text-navy-600" size={16} />
+                        <span>{achievement}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
