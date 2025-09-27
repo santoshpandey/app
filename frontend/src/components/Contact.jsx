@@ -117,7 +117,7 @@ const Contact = () => {
               <h4 className="font-semibold text-gray-900 mb-4">Quick Response Promise</h4>
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-navy-800">< 24h</div>
+                  <div className="text-2xl font-bold text-navy-800">&lt; 24h</div>
                   <div className="text-gray-600">Response Time</div>
                 </div>
                 <div className="text-center">
