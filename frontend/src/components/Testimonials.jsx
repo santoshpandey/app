@@ -49,8 +49,15 @@ const Testimonials = () => {
         </div>
 
         {/* Testimonials Grid */}
+        <div className="grid lg:grid-cols-2 gap-8 mb-8">
+          {testimonials.slice(0, 2).map((testimonial) => (
+            <TestimonialCard key={testimonial.id} testimonial={testimonial} />
+          ))}
+        </div>
+        
+        {/* Additional Testimonials Row */}
         <div className="grid lg:grid-cols-2 gap-8">
-          {testimonials.map((testimonial) => (
+          {testimonials.slice(2).map((testimonial) => (
             <TestimonialCard key={testimonial.id} testimonial={testimonial} />
           ))}
         </div>
