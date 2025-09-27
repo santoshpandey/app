@@ -44,7 +44,7 @@ const Testimonials = () => {
             What People <span className="text-navy-800">Say</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Testimonials from colleagues and team members I've had the privilege to work with.
+            Testimonials and feedback from colleagues, team members, and industry professionals I've had the privilege to work with and mentor.
           </p>
         </div>
 
