@@ -177,14 +177,36 @@ export const portfolioData = {
 
   education: [
     {
-      institution: "Indian Institute of Technology, Patna",
-      degree: "Bachelor's Degree",
-      field: "Engineering",
-      duration: "2015 - 2019",
+      institution: "Indian Institute of Information Technology, Patna",
+      degree: "Professional Certificate in Generative AI",
+      field: "Artificial Intelligence & Machine Learning",
+      duration: "2024",
       achievements: [
-        "Strong foundation in Computer Science and Engineering",
-        "Participated in coding competitions and hackathons",
-        "Maintained excellent academic performance"
+        "Advanced training in Generative AI technologies",
+        "Hands-on experience with LLMs and AI frameworks",
+        "Practical applications in software development"
+      ]
+    },
+    {
+      institution: "NIIT",
+      degree: "Diploma",
+      field: "Network Centered Computing",
+      duration: "2000 - 2001",
+      achievements: [
+        "Comprehensive training in computer networking",
+        "Practical experience with network systems",
+        "Foundation in distributed computing"
+      ]
+    },
+    {
+      institution: "University",
+      degree: "Bachelor of Science (BSc)",
+      field: "Computer Science",
+      duration: "1998 - 2001",
+      achievements: [
+        "Strong foundation in Computer Science fundamentals",
+        "Mathematics and programming concepts",
+        "Academic excellence in core subjects"
       ]
     }
   ],
